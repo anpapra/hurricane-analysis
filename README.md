@@ -11,10 +11,10 @@ This project investigates the correlation between Sea Surface Temperature (SST) 
 
 ## Project Structure
 
-- **`data/`**: Contains the datasets used for analysis, including SST anomalies and hurricane wind speeds.
-- **`scripts/`**: Python scripts for data processing, analysis, and visualization.
-- **`notebooks/`**: Jupyter notebooks that provide step-by-step documentation of the data analysis process.
-- **`results/`**: Outputs of the analysis, including plots, correlation coefficients, and summary tables.
+- **`HURRICANE_ANALYSIS-correlation`**: Contains the code used for statistical correlation analysis between the processed SST and Hurricane Wind Speed datasets.
+- **`HURRICANE_ANALYSIS-HADSST`**: Python script for HADSST dataset processing (Sea Surface Temperature) including Fourier Analysis, data cleaning, error estimation and data visualisation.
+- **`HURROCANE_ANALYSIS-HURDAT2`**: Python script for HUHRDAT2 dataset processing and cleaning, excluding uncertainty estimation.
+- **`HURROCANE_ANALYSIS-uncertainties-HADSST`**: Python script of an extensive uncertainty estimation for HURDAT2 including data visualisation.
 - **`README.md`**: Project documentation.
 
 ## Installation
